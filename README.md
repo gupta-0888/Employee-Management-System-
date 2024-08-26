@@ -40,7 +40,7 @@ The application consists of the following classes:
 
 4. The application will open in a new window. Follow the prompts to add, delete, update, or display employees.
 
-   # Note :
+# Note :
    This application is just a basic example of how to build an employee management system using Java Swing. You can modify and expand upon the code to add additional features and functionality as needed.
 
 
