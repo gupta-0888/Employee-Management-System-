@@ -1,46 +1,53 @@
-# Employee-Management-System-
+# 👨‍💼 Employee Management System
 
-This is a Java Swing application for managing employee information. This project was created using JDK 17 and Eclipse 2022-12.
+## 📘 Project Overview
+The **Employee Management System** is a Java-based application designed to efficiently manage employee data within an organization.  
+It allows administrators to handle employee records such as adding new employees, updating details, calculating salaries, and maintaining department information.  
+This project simplifies HR and administrative tasks by providing a secure and easy-to-use interface for managing employee information.
 
-It has the following functionalities:
+---
 
-**Add employee**: Allows you to add a new employee to the system by entering their personal and employment details.
+## ⚙️ Key Features
+- 👥 **Employee Management:** Add, update, delete, and view employee details.  
+- 🏢 **Department Management:** Organize employees by departments and roles.  
+- 💰 **Salary Module:** Calculate and update employee salaries.  
+- 🔒 **Authentication System:** Secure login for admin users.  
+- 🧾 **Search & Filter:** Find employees using ID, name, or department.  
+- 💾 **Database Integration:** All employee records are stored and managed in **MySQL**.  
+- 🧰 **Error Handling:** Validations for input data and duplicate entries.  
 
-**Delete employee**: Allows you to delete an existing employee from the system.
+---
 
-**Update employee**: Allows you to update the personal and employment details of an existing employee.
+## 🧑‍💻 Technologies Used
+| Category | Tools / Technologies |
+|-----------|----------------------|
+| Programming Language | Java (J2SE) |
+| Database | MySQL |
+| IDE | Eclipse / IntelliJ IDEA / NetBeans |
+| Concepts | OOPs, JDBC, Exception Handling, CRUD Operations |
+| Version Control | Git, GitHub |
 
-**Display employee**: Shows a list of all employees in a JTable, with their personal and employment details.
+---
 
-# Classes :
+## 🧠 Project Flow
+1. **Admin Login:** Only authorized users can access the system.  
+2. **Add Employee:** Admin can add new employees with personal and professional details.  
+3. **View/Update Employee:** View and modify existing employee records.  
+4. **Delete Employee:** Remove employee data when needed.  
+5. **Department & Salary Management:** Handle department creation and employee salary updates.  
+6. **Logout:** Securely exit the application.
 
-The application consists of the following classes:
+---
 
-**CreateConnection**: This class is responsible for establishing a connection with a database using JDBC. Edit the CreateConnection.java file to provide your database details.
+## 🧩 Learning Outcomes
+- Gained strong understanding of **Java programming and JDBC connectivity**.  
+- Learned **database design** and efficient use of **CRUD operations**.  
+- Applied **Object-Oriented Programming (OOPs)** concepts effectively.  
+- Enhanced skills in **exception handling, user authentication**, and **data validation**.
 
-**Operations**: This class contains methods for inserting, deleting, and updating employee records in the database.
+---
 
-**Query**: This class contains methods for retrieving employee records from the database.
-
-**Windows**: This is the main GUI class, which handles user interactions and displays the employee information in a JTable.
-
-**Employee**: This class stores the personal and employment details of a single employee.
-
-# Prerequisites
-**MySQL database**: The application uses a MySQL database to store employee records. The employee.sql file contains the SQL query to create the necessary database and tables.
-
-**MySQL Connector library**: Add the mysql-connector-java-8.0.22.jar file to your classpath. This library is required to establish a connection with the MySQL database using JDBC.
-
-# How to run the application :
-1. Clone the repository to your local machine.
-
-2. Open the project in an IDE such as Eclipse or IntelliJ.
-
-3. Build and run the project run window.java file.
-
-4. The application will open in a new window. Follow the prompts to add, delete, update, or display employees.
-
-# Note :
-   This application is just a basic example of how to build an employee management system using Java Swing. You can modify and expand upon the code to add additional features and functionality as needed.
-
-
+## 🚀 How to Run the Project
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/aman-gupta-aman8888/Employee-Management-System.git
